@@ -72,12 +72,12 @@ let arr11 = ["kawin", "kumar", "ragul", "gopi", "mohan"];
 console.log(arr11.includes("kumar",1))
 
 //index()
-const arr12 = ["kawin", "kumar", "ragul", "gopi", "kumar"];
+const arr12 = ["kawin", "kumar", "ragul", "gopi"];
 let index = arr12.indexOf("kumar",3);
 console.log(index)
 
 //isArray()
-const arr13 = ["kawin", "kumar", "ragul", "gopi", "kumar"];
+const arr13 = ["kawin", "kumar", "ragul"];
 let result = Array.isArray(arr13);
 console.log(result)
 //join
@@ -93,7 +93,7 @@ for(let v of keys)
 }
 console.log(t)
 //lastindexof
-let na=["ragul","kawin","nithish","ragul"]
+let na=["ragul","kawin","ragul"]
 console.log(na.lastIndexOf("ragul"))
 //length
 console.log(na.length)
