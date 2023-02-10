@@ -6,7 +6,7 @@ class Node{
         this.nextNode=null;
     }
 }
-class stack
+class Stack
 {
     rootNode = null;
     count = 0;
@@ -72,7 +72,7 @@ sta()
 
         
 }
-let lists=new stack()
+let lists=new Stack()
 lists.addElement(1);
 lists.addElement(2);
 lists.addElement(3);
