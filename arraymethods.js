@@ -1,5 +1,5 @@
 
-var arr=[1,2,3];
+let arr=[1,2,3];
 console.log(arr);
 //concat
 let arr1=[4,5,6]
@@ -9,7 +9,7 @@ console.log(arr2)
 arr.copyWithin(1,0,2) 
 console.log(arr)
 //entries
-arr4=[12,17,18]
+let arr4=[12,17,18]
 let f=arr4.entries()
 for (let x of f)
 {
@@ -38,9 +38,9 @@ function fn(a)
 }
 //find
 let num2=[10,20,49]
-console.log(num2.find(fn))
+console.log(num2.find(fn4))
 
-function fn(a)
+function fn4(a)
 {
     return a%10==0;
 }
@@ -68,7 +68,7 @@ const arr10 = Array.from("kawin")
 console.log(arr10)
 
 //includes()
-arr11 = ["kawin", "kumar", "ragul", "gopi", "mohan"];
+let arr11 = ["kawin", "kumar", "ragul", "gopi", "mohan"];
 console.log(arr11.includes("kumar",1))
 
 //index()
@@ -85,7 +85,7 @@ let alp=["a","b","c"]
 console.log(alp.join())
 //keys
 let a=[1,3,5]
-keys=a.keys()
+let keys=a.keys()
 let t=""
 for(let v of keys)
 {
@@ -139,7 +139,7 @@ t=str.toString();
 console.log(t);
 //valueof
 let val=["ragul","jeeva"]
-v=val.valueOf();
+let v=val.valueOf();
 console.log(v);
 
 //reduce
@@ -152,7 +152,7 @@ console.log(res3)
 
 //reduce right
 const arr22 = [1,2,3,4,5];
-rr = arr22.reduceRight(myFunc);
+let rr = arr22.reduceRight(myFunc);
 
 function myFunc(total, num) {
   return total - num;
@@ -161,7 +161,8 @@ console.log(rr)
 
 //reverse
 const num12 = [1,2,3,4,5];
-console.log(num12.reverse());
+let revi=num12.reverse();
+console.log(revi);
 //some
 const even4 = [12, 22, 32, 42];
 
