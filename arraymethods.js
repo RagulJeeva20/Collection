@@ -150,19 +150,8 @@ function getSum(total, num) {
   return total + num };
 console.log(res3)
 
-//reduce right
-const arr22 = [1,2,3,4,5];
-let rr = arr22.reduceRight(myFunc);
 
-function myFunc(total, num) {
-  return total - num;
-}
-console.log(rr)
 
-//reverse
-const num12 = [1,2,3,4,5];
-num12.reverse();
-console.log(num12);
 //some
 const even4 = [12, 22, 32, 42];
 
@@ -171,3 +160,15 @@ console.log(even4.some(checkEven))
 function checkEven(even) {
   return even%2==0;
 }
+//reduce right
+const arr22 = [1,2,3,4,5];
+let rr = arr22.reduceRight(myFunc);
+
+function myFunc(total, num) {
+  return total - num;
+}
+console.log(rr)
+//reverse
+const num12 = [1,2,3,4,5];
+num12.reverse();
+console.log(num12);
