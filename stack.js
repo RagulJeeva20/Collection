@@ -18,7 +18,7 @@ class stack
             }
             else
             {
-                var temp = this.rootNode;
+                let temp = this.rootNode;
                 while(temp.nextNode != null)
                 {
                     temp = temp.nextNode;
@@ -38,15 +38,15 @@ class stack
             }
         printElements()
         {
-            var temp = this.rootNode;
+            let temp = this.rootNode;
             if(temp == null)
             {
                 console.log("Is empty!")
             }
             else
             {
-                var curr=this.rootNode;
-                var listval="";
+                let curr=this.rootNode;
+                let listval="";
             while(curr )
             {
                 listval+=curr.value + " ";
@@ -72,7 +72,7 @@ sta()
 
         
 }
-var lists=new stack()
+let lists=new stack()
 lists.addElement(1);
 lists.addElement(2);
 lists.addElement(3);
