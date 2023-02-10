@@ -10,7 +10,7 @@ class Stack
 {
     rootNode = null;
     count = 0;
-    addElement(value)
+    addElementt(value)
     {
             if(this.rootNode == null)
             {
@@ -28,13 +28,28 @@ class Stack
             }
             this.count++;
         }
+        size()
+            {
+                return this.size
+            }
         empty()
             {
                 return this.count==0
             }
-            size()
+            
+
+            sta()
             {
-                return this.size
+                let prev;
+                let curr=this.rootNode;
+                for(let i=0;i<this.count-1;i++)
+                {
+                    prev=curr;
+                    curr=curr.nextNode;
+                }
+                prev.nextNode=null;
+                this.count--;
+            
             }
         printElements()
         {
@@ -56,27 +71,15 @@ class Stack
             }
         }
         
-sta()
-{
-    let prev;
-    let curr=this.rootNode;
-    for(let i=0;i<this.count-1;i++)
-    {
-        prev=curr;
-        curr=curr.nextNode;
-    }
-    prev.nextNode=null;
-    this.count--;
 
-}
 
         
 }
 let lists=new Stack()
-lists.addElement(1);
-lists.addElement(2);
-lists.addElement(3);
-lists.addElement(4);
+lists.addElementt(1);
+lists.addElementt(2);
+lists.addElementt(3);
+lists.addElementt(4);
 
 lists.sta();
 lists.printElements();
