@@ -115,7 +115,7 @@ class LinkedList{
 }
 
 
-var list = new LinkedList()
+let list = new LinkedList()
 list.addElement(1);
 list.addElement(2);
 list.addElement(3);
