@@ -6,7 +6,7 @@ class Node{
         this.nextNode=null;
     }
 }
-class queue
+class Queue
 {
     rootNode = null;
     count = 0;
@@ -76,7 +76,7 @@ sta()
 
         
 }
-let lists=new queue()
+let lists=new Queue()
 lists.addElement(1);
 lists.addElement(2);
 lists.addElement(3);
