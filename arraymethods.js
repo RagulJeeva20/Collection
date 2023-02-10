@@ -30,9 +30,9 @@ music.fill("ani")
 console.log(music)
 //filter
 let num1=[10,20,49]
-console.log(num1.filter(fn))
+console.log(num1.filter(fna))
 
-function fn(a)
+function fna(a)  
 {
     return a%10==0;
 }
@@ -161,8 +161,8 @@ console.log(rr)
 
 //reverse
 const num12 = [1,2,3,4,5];
-let revi=num12.reverse();
-console.log(revi);
+num12.reverse();
+console.log(num12);
 //some
 const even4 = [12, 22, 32, 42];
 
